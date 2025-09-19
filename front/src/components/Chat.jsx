@@ -97,7 +97,7 @@ const Chat = () => {
     setIsLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:8000/api/gemini/text", {
+      const res = await axios.post("https://gemini-back-j19i.onrender.com/api/gemini/text", {
         prompt: input,
       });
 
