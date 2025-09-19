@@ -1,0 +1,19 @@
+backend/
+├── models/
+│   └── Chat.js
+├── controllers/
+│   └── geminiController.js
+├── routes/
+│   └── geminiRoutes.js
+├── server.js
+└── .env
+
+
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── Chat.js
+│   │   └── ImageGenerator.js
+│   ├── App.js
+│   └── index.js
+└── package.json
